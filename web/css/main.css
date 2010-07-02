@@ -1,0 +1,131 @@
+body
+{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  background: #222;
+}
+
+#content
+{
+  margin: 18% auto 0 auto;
+}
+
+#title
+{
+  text-align: center;
+  color: #3399DD;
+}
+
+#creation_form
+{
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  font-size: 24pt;
+  padding: 24px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background-color: #eee;
+  -webkit-box-shadow: #111 0px 0px 5px;
+}
+
+#creation_form .form_body
+{
+  text-align: center;
+}
+
+#creation_form .form_body input
+{
+  font-size: 24pt;
+  background-color: #eee;
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  color: #3399DD;
+  padding: 0;
+  margin: 0;
+}
+
+#creation_form #response
+{
+  font-size: 12pt;
+  position: absolute;
+  width: 20em;
+  text-align: left;
+}
+
+#creation_form #response img
+{
+  vertical-align: middle;
+  margin-right: 4px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+}
+
+#creation_form .actions
+{
+  margin-top: 12px;
+  text-align: center;
+}
+
+#creation_form .actions input
+{
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  font: bold 11px "Lucida Grande", Arial, Sans-serif;
+  margin: 0;
+  overflow: visible;
+  width: auto;
+  background: url("http://s.twimg.com/a/1274899949/images/bg-btn-blue.png") repeat-x scroll 0 0 #3399DD;
+  border: 1px solid #3399DD;
+  color: #fff;
+  padding: 4px 10px 5px;
+  text-shadow: 0 -1px 0 #3399DD;
+  font-size: 20pt;
+}
+
+#creation_form .actions input:disabled
+{
+  background: #ccc;
+  border-color: #aaa;
+  text-shadow: 0 -1px 0 #999;
+}
+
+.sf_notice
+{
+  text-align: center;
+  color: #99dd33;
+}
+
+.error_list
+{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #dd3399;
+  font-size: 12pt;
+}
+
+#c
+{
+  position: absolute;
+  right: 3px;
+  bottom: 0;
+}
+
+#c a
+{
+  text-shadow: 0 -1px 0 #111;
+  color: #333;
+  text-decoration: none;
+}
+
+#flags
+{
+  position: absolute;
+  right: 3px;
+  padding: 0 3px;
+  top: 3px;
+  background-color: #333;
+  border: 1px solid #444;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
