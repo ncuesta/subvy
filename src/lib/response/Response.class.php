@@ -42,7 +42,7 @@ class Response
   {
     $template = file_get_contents($this->getTemplate());
 
-    $tpl = preg_replace('/{\s*\$([\w_\d]+)\s*\}/', "\$this->getParameter('\\1');", $template);
+    $tpl = preg_replace('/{\s*\$([\w_\d]+)\s*\}/e', "\$this->getParameter('\\1');", $template);
 
     return $tpl;
   }
