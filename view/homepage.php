@@ -12,7 +12,7 @@
     <div id="content">
       <form id="creation_form" action="?action=submit" method="post">
         <div class="form_body">
-          { $subversion_root_url }/<input type="text" name="name" id="repo_name" value="repo" />
+          { $subversion_root_url }/<input type="text" name="name" id="repo_name" placeholder="repo" />
         </div>
 
         <div class="actions">
