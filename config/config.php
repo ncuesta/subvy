@@ -20,7 +20,7 @@
   require_once($lib_dir.'/autoload/autoload.php');
 
   Configuration::setMany(array(
-    'svn_root_dir' => $subversion_root_dir,
+    'svn_base_dir' => $subversion_root_dir,
     'svn_root_url' => $subversion_root_url,
     'root_dir'     => $root_dir,
     'lib_dir'      => $lib_dir,

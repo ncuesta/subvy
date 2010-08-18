@@ -6,7 +6,7 @@ class RepoManager
 
   static public function create(Repo $repo)
   {
-    if ($repo->isNew())
+    if (!$repo->isNew())
     {
       return false;
     }
@@ -83,7 +83,7 @@ class RepoManager
   {
     $dir = self::getBaseDir().'/'.$repo_name;
 
-    if (file_exists($dir))
+    if (file_exists($dir) || !is_writable(self::getBaseDir()))
     {
       return false;
     }

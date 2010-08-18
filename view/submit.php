@@ -12,12 +12,12 @@
     <div id="content">
       <form id="creation_form" action="?action=submit" method="post">
         <div class="form_body">
-          { $subversion_root_url }/<input type="text" name="name" id="repo_name" value="repo" />
+          { $subversion_root_url }/<input type="text" name="name" id="repo_name" value="{ $name }" />
         </div>
 
         <div class="actions">
           <input id="do-submit" type="submit" value="Crear repositorio" onclick="return confirm('¿Está seguro?');" />
-          <span id="response"></span>
+          <span id="response"><img src="{ $image }" alt="{ $status }" title="{ $status }" /> { $message }</span>
         </div>
       </form>
     </div>
